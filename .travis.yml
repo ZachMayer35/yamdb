@@ -1,6 +1,9 @@
 language: node_js
 node_js:
 - 10
+before_install:
+  - chmod +x ./prod-install.sh
+  - chmod +x ./prod-build.sh
 install: "./prod-install.sh"
 script: "./prod-build.sh"
 deploy:
