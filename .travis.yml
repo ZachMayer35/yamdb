@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- 10
+install: "./prod-install.sh"
+script: "./prod-build.sh"
+deploy:
+  provider: heroku
+  api_key:
+    secure: embnaU9ow7YiM0egdISLSzlZpm7yaSD94R3q5BWng5xSLwc2do6Fz1MgfsAxgPg9pRFcpEfoAUjWeBjf0oVCFC1PvSNSrXzMZ8SZouhfxEd7UKabOj1HMFEcKF20Y65+EJdxdSpU1jxandytBQmGb3CPAIo9ReyjogkQwdXsEHozO/X/BbLzBEng6wpD+77lUB/h3oL9PZtYVEcOaLokE83jvGvVDk9fZqya8bcyxUqwREmcH7BmhuwVVkckV0sxlevOIfapkKTc+pRgC4Dee8EKFQtulg3sXO9HLEVpKaVYEWnfVtncOXQOpAfxiBHykNjN13eMTmAypf+djt/3DcX2DJoLIU1DUWh6FTEXHpkvPQWIL4vk0r0vEnGuN+L6J5e0teTCichTsYOEuI/X+++ri++wyBWCHmDv3ZSp5qjIdgWDkzsVXzfPjFSKep9ruWFybiXzGS21nmwfYBbAkvniF7WRAQolnsHcjKCW2QDzbC4hY38sVxRW0/tPyNnU+eKwGzoJKg8Hz+RUFEvE+tHL5dOejE34Y+zTi1/ql//9OVaOfJ2R9ZO/YtURP6Sz90L35orHbDmD9uPANCY60rxdN8ifD1bgkJT3cgBD67/h9iYCxJU+MdjkjtaF6jKeMhkDMXhYUUuigY3eRHJZPxve3ECtuKb5ujWM555BGhU=
+  app: yamtgdb
