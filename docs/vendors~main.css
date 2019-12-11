@@ -1,0 +1,919 @@
+@font-face{font-family:"Keyrune";src:url(static/media/keyrune.6cbb0d44.eot);src:url(static/media/keyrune.6cbb0d44.eot) format("embedded-opentype"),url(static/media/keyrune.1c422ee9.woff2) format("woff2"),url(static/media/keyrune.a5ab91fe.woff) format("woff"),url(static/media/keyrune.458abcc2.ttf) format("truetype"),url(static/media/keyrune.c831a269.svg) format("svg");font-weight:normal;font-style:normal}.ss{display:inline-block;font:normal normal normal 14px "Keyrune";font-size:inherit;line-height:1em;text-rendering:auto;-webkit-transform:translate(0, 0);transform:translate(0, 0);speak:none;text-transform:none;vertical-align:middle;-webkit-font-smoothing:antialiased;-moz-font-smoothing:grayscale}.ss:before{content:""}.ss-lea:before{content:""}.ss-leb:before{content:""}.ss-2ed:before{content:""}.ss-3ed:before{content:""}.ss-4ed:before{content:""}.ss-psum:before{content:""}.ss-5ed:before{content:""}.ss-6ed:before{content:""}.ss-7ed:before{content:""}.ss-8ed:before{content:""}.ss-9ed:before{content:""}.ss-10e:before{content:""}.ss-m10:before{content:""}.ss-m11:before{content:""}.ss-m12:before{content:""}.ss-m13:before{content:""}.ss-m14:before{content:""}.ss-m15:before{content:""}.ss-bcore:before{content:""}.ss-ori:before{content:""}.ss-m19:before{content:""}.ss-m20:before{content:""}.ss-1e:before{content:""}.ss-2e:before{content:""}.ss-2u:before{content:""}.ss-3e:before{content:""}.ss-m21:before{content:""}.ss-arn:before{content:""}.ss-atq:before{content:""}.ss-leg:before{content:""}.ss-drk:before{content:""}.ss-fem:before{content:""}.ss-hml:before{content:""}.ss-ice:before{content:""}.ss-ice2:before{content:""}.ss-all:before{content:""}.ss-csp:before{content:""}.ss-mir:before{content:""}.ss-vis:before{content:""}.ss-wth:before{content:""}.ss-tmp:before{content:""}.ss-sth:before{content:""}.ss-exo:before{content:""}.ss-usg:before{content:""}.ss-ulg:before{content:""}.ss-uds:before{content:""}.ss-mmq:before{content:""}.ss-nem:before{content:""}.ss-nms:before{content:""}.ss-pcy:before{content:""}.ss-inv:before{content:""}.ss-pls:before{content:""}.ss-apc:before{content:""}.ss-ody:before{content:""}.ss-tor:before{content:""}.ss-jud:before{content:""}.ss-ons:before{content:""}.ss-lgn:before{content:""}.ss-scg:before{content:""}.ss-mrd:before{content:""}.ss-dst:before{content:""}.ss-5dn:before{content:""}.ss-chk:before{content:""}.ss-bok:before{content:""}.ss-sok:before{content:""}.ss-rav:before{content:""}.ss-gpt:before{content:""}.ss-dis:before{content:""}.ss-tsp:before{content:""}.ss-plc:before{content:""}.ss-fut:before{content:""}.ss-lrw:before{content:""}.ss-mor:before{content:""}.ss-shm:before{content:""}.ss-eve:before{content:""}.ss-ala:before{content:""}.ss-con:before{content:""}.ss-arb:before{content:""}.ss-zen:before{content:""}.ss-wwk:before{content:""}.ss-roe:before{content:""}.ss-som:before{content:""}.ss-mbs:before{content:""}.ss-nph:before{content:""}.ss-isd:before{content:""}.ss-dka:before{content:""}.ss-avr:before{content:""}.ss-rtr:before{content:""}.ss-gtc:before{content:""}.ss-dgm:before{content:""}.ss-ths:before{content:""}.ss-bng:before{content:""}.ss-jou:before{content:""}.ss-ktk:before{content:""}.ss-frf:before{content:""}.ss-dtk:before{content:""}.ss-bfz:before{content:""}.ss-ogw:before{content:""}.ss-soi:before{content:""}.ss-emn:before{content:""}.ss-kld:before{content:""}.ss-aer:before{content:""}.ss-akh:before{content:""}.ss-hou:before{content:""}.ss-xln:before{content:""}.ss-rix:before{content:""}.ss-dom:before{content:""}.ss-grn:before{content:""}.ss-gk1:before{content:""}.ss-rna:before{content:""}.ss-gk2:before{content:""}.ss-war:before{content:""}.ss-eld:before{content:""}.ss-thb:before{content:""}.ss-xikr:before{content:""}.ss-xznr:before{content:""}.ss-van:before{content:""}.ss-hop:before{content:""}.ss-arc:before{content:""}.ss-cmd:before{content:""}.ss-pc2:before{content:""}.ss-cm1:before{content:""}.ss-c13:before{content:""}.ss-cns:before{content:""}.ss-c14:before{content:""}.ss-c15:before{content:""}.ss-cn2:before{content:""}.ss-c16:before{content:""}.ss-pca:before{content:""}.ss-cma:before{content:""}.ss-e01:before{content:""}.ss-ann:before{content:""}.ss-e02:before{content:""}.ss-c17:before{content:""}.ss-cm2:before{content:""}.ss-bbd:before{content:""}.ss-c18:before{content:""}.ss-c19:before{content:""}.ss-c20:before{content:""}.ss-znc:before{content:""}.ss-cc1:before{content:""}.ss-cmr:before{content:""}.ss-cmc:before{content:""}.ss-chr:before{content:""}.ss-ath:before{content:""}.ss-brb:before{content:""}.ss-btd:before{content:""}.ss-dkm:before{content:""}.ss-mma:before{content:""}.ss-mm2:before{content:""}.ss-ema:before{content:""}.ss-mm3:before{content:""}.ss-xren:before{content:""}.ss-xrin:before{content:""}.ss-ima:before{content:""}.ss-a25:before{content:""}.ss-uma:before{content:""}.ss-mh1:before{content:""}.ss-por:before{content:""}.ss-p02:before{content:""}.ss-po2:before{content:""}.ss-ptk:before{content:""}.ss-s99:before{content:""}.ss-s00:before{content:""}.ss-w16:before{content:""}.ss-w17:before{content:""}.ss-evg:before{content:""}.ss-dd2:before{content:""}.ss-ddc:before{content:""}.ss-ddd:before{content:""}.ss-dde:before{content:""}.ss-ddf:before{content:""}.ss-ddg:before{content:""}.ss-ddh:before{content:""}.ss-ddi:before{content:""}.ss-ddj:before{content:""}.ss-ddk:before{content:""}.ss-ddl:before{content:""}.ss-ddm:before{content:""}.ss-ddn:before{content:""}.ss-ddo:before{content:""}.ss-ddp:before{content:""}.ss-ddq:before{content:""}.ss-ddr:before{content:""}.ss-td2:before{content:""}.ss-dds:before{content:""}.ss-ddt:before{content:""}.ss-ddu:before{content:""}.ss-drb:before{content:""}.ss-v09:before{content:""}.ss-v10:before{content:""}.ss-v11:before{content:""}.ss-v12:before{content:""}.ss-v13:before{content:""}.ss-v14:before{content:""}.ss-v15:before{content:""}.ss-v16:before{content:""}.ss-v0x:before{content:""}.ss-v17:before{content:""}.ss-h09:before{content:""}.ss-pd2:before{content:""}.ss-pd3:before{content:""}.ss-md1:before{content:""}.ss-ss1:before{content:""}.ss-ss2:before{content:""}.ss-gs1:before{content:""}.ss-azorius:before{content:""}.ss-boros:before{content:""}.ss-dimir:before{content:""}.ss-golgari:before{content:""}.ss-gruul:before{content:""}.ss-izzet:before{content:""}.ss-orzhov:before{content:""}.ss-rakdos:before{content:""}.ss-selesnya:before{content:""}.ss-simic:before{content:""}.ss-gnt:before{content:""}.ss-gn2:before{content:""}.ss-pgru:before{content:""}.ss-pmtg1:before{content:""}.ss-pmtg2:before{content:""}.ss-pleaf:before{content:""}.ss-pmei:before{content:""}.ss-parl:before{content:""}.ss-dpa:before{content:""}.ss-pbook:before{content:""}.ss-past:before{content:""}.ss-parl2:before{content:""}.ss-exp:before{content:""}.ss-psalvat05:before{content:""}.ss-psalvat11:before{content:""}.ss-mp1:before{content:""}.ss-mps:before{content:""}.ss-pxbox:before{content:""}.ss-pmps:before{content:""}.ss-pmpu:before{content:""}.ss-mp2:before{content:""}.ss-pidw:before{content:""}.ss-pdrc:before{content:""}.ss-pheart:before{content:""}.ss-h17:before{content:""}.ss-pdep:before{content:""}.ss-psega:before{content:""}.ss-ptsa:before{content:""}.ss-parl3:before{content:""}.ss-htr:before{content:""}.ss-med:before{content:""}.ss-ptg:before{content:""}.ss-htr17:before{content:""}.ss-j20:before{content:""}.ss-me1:before{content:""}.ss-me2:before{content:""}.ss-me3:before{content:""}.ss-me4:before{content:""}.ss-tpr:before{content:""}.ss-vma:before{content:""}.ss-xlcu:before{content:""}.ss-pz1:before{content:""}.ss-modo:before{content:""}.ss-pmodo:before{content:""}.ss-duels:before{content:""}.ss-xduels:before{content:""}.ss-xmods:before{content:""}.ss-pz2:before{content:""}.ss-ha1:before{content:""}.ss-ugl:before{content:""}.ss-unh:before{content:""}.ss-ust:before{content:""}.ss-xcle:before{content:""}.ss-xice:before{content:""}.ss-x2ps:before{content:""}.ss-x4ea:before{content:""}.ss-papac:before{content:""}.ss-peuro:before{content:""}.ss-pfnm:before{content:""}.ss.ss-common{color:#1a1718}.ss.ss-common.ss-grad{background:-webkit-linear-gradient(left, #302b2c 0%, #474040 50%, #302b2c 100%);-webkit-text-stroke:0.03em #000;-webkit-text-fill-color:rgba(0,0,0,0);-webkit-background-clip:text;background-clip:text}.ss.ss-uncommon{color:#707883}.ss.ss-uncommon.ss-grad{background:-webkit-linear-gradient(left, #5a6572 0%, #9e9e9e 50%, #5a6572 100%);-webkit-text-stroke:0.03em #111;-webkit-text-fill-color:rgba(0,0,0,0);-webkit-background-clip:text;background-clip:text}.ss.ss-rare{color:#a58e4a}.ss.ss-rare.ss-grad{background:-webkit-linear-gradient(left, #876a3b 0%, #dfbd6b 50%, #876a3b 100%);-webkit-text-stroke:0.03em #333;-webkit-text-fill-color:rgba(0,0,0,0);-webkit-background-clip:text;background-clip:text}.ss.ss-mythic{color:#bf4427}.ss.ss-mythic.ss-grad{background:-webkit-linear-gradient(left, #b21f0f 0%, #f38300 50%, #b21f0f 100%);-webkit-text-stroke:0.03em #333;-webkit-text-fill-color:rgba(0,0,0,0);-webkit-background-clip:text;background-clip:text}.ss.ss-timeshifted{color:#652978}.ss.ss-timeshifted.ss-grad{background:-webkit-linear-gradient(left, #652978 0%, #c09ac5 50%, #652978 100%);-webkit-text-stroke:0.03em #333;-webkit-text-fill-color:rgba(0,0,0,0);-webkit-background-clip:text;background-clip:text}.ss-foil{color:#a6dced}.ss-foil.ss-grad{background:linear-gradient(135deg, #ea8d66 0%, #ea8d66 15%, #fdef8a 28%, #8bcc93 42%, #a6dced 55%, #6f75aa 68%, #e599c2 84%, #e599c2 100%);-webkit-text-stroke:0.03em #333;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.ss.ss-2x{font-size:2em}.ss.ss-3x{font-size:3em}.ss.ss-4x{font-size:4em}.ss.ss-5x{font-size:5em}.ss.ss-6x{font-size:6em}.ss.ss-fw{width:calc(18em / 14);text-align:center}.ss.ss-no-border{-webkit-text-stroke:0;text-stroke:0}.ss.ss-border:after{content:"";position:absolute;left:-0.05em;top:0.0em;z-index:-1;color:#fff;font-size:1.15em;background:#fff;-webkit-text-stroke:0.05em #fff;-webkit-background-clip:text;-webkit-text-fill-color:rgba(0,0,0,0)}.ss.ss-border.ss-van:after{content:""}.ss.ss-border.ss-arc:after{content:""}.ss.ss-border.ss-cmd:after{content:""}.ss.ss-border.ss-cm1:after{content:""}.ss.ss-border.ss-c13:after{content:""}.ss.ss-border.ss-c14:after{content:""}.ss.ss-border.ss-c15:after{content:""}.ss.ss-border.ss-hop:after{content:""}.ss.ss-border.ss-pc2:after{content:""}.ss.ss-border.ss-cns:after{content:""}
+
+
+
+/**
+ * Global */
+@font-face {
+  font-family: 'Mana';
+  src: url(static/media/mana.d260b861.eot);
+  src: url(static/media/mana.d260b861.eot?#iefix&v=1.4.1) format('embedded-opentype'), url(static/media/mana.f712ab6b.woff) format('woff'), url(static/media/mana.3e00a2f7.ttf) format('truetype'), url(static/media/mana.7217c161.svg#mana) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MPlantin';
+  src: url(static/media/mplantin.daf8b76b.eot);
+  src: url(static/media/mplantin.daf8b76b.eot?#iefix&v=1.4.1) format('embedded-opentype'), url(static/media/mplantin.b09923e4.woff) format('woff'), url(static/media/mplantin.c64fa9e7.ttf) format('truetype'), url(static/media/mplantin.7f51b354.svg#mplantin) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.ms {
+  display: inline-block;
+  font: normal normal normal 14px/1 Mana;
+  font-size: inherit;
+  line-height: 1em;
+  text-rendering: auto;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  speak: none;
+  text-transform: none;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/**
+ * Mana cost styles */
+.ms-cost {
+  background-color: #BEB9B2;
+  border-radius: 1em;
+  color: #111;
+  font-size: 0.95em;
+  width: 1.3em;
+  height: 1.3em;
+  line-height: 1.35em;
+  text-align: center;
+}
+.ms-cost.ms-w,
+.ms-cost.ms-wp {
+  background-color: #F0F2C0;
+}
+.ms-cost.ms-u,
+.ms-cost.ms-up {
+  background-color: #B5CDE3;
+}
+.ms-cost.ms-b,
+.ms-cost.ms-bp {
+  background-color: #ACA29A;
+}
+.ms-cost.ms-r,
+.ms-cost.ms-rp {
+  background-color: #DB8664;
+}
+.ms-cost.ms-g,
+.ms-cost.ms-gp {
+  background-color: #93B483;
+}
+.ms-cost.ms-wu,
+.ms-cost.ms-wb,
+.ms-cost.ms-ub,
+.ms-cost.ms-ur,
+.ms-cost.ms-br,
+.ms-cost.ms-bg,
+.ms-cost.ms-rw,
+.ms-cost.ms-rg,
+.ms-cost.ms-gw,
+.ms-cost.ms-gu,
+.ms-cost.ms-2w,
+.ms-cost.ms-2u,
+.ms-cost.ms-2b,
+.ms-cost.ms-2r,
+.ms-cost.ms-2g {
+  position: relative;
+  width: 1.3em;
+  height: 1.3em;
+}
+.ms-cost.ms-wu:before,
+.ms-cost.ms-wb:before,
+.ms-cost.ms-ub:before,
+.ms-cost.ms-ur:before,
+.ms-cost.ms-br:before,
+.ms-cost.ms-bg:before,
+.ms-cost.ms-rw:before,
+.ms-cost.ms-rg:before,
+.ms-cost.ms-gw:before,
+.ms-cost.ms-gu:before,
+.ms-cost.ms-2w:before,
+.ms-cost.ms-2u:before,
+.ms-cost.ms-2b:before,
+.ms-cost.ms-2r:before,
+.ms-cost.ms-2g:before,
+.ms-cost.ms-wu:after,
+.ms-cost.ms-wb:after,
+.ms-cost.ms-ub:after,
+.ms-cost.ms-ur:after,
+.ms-cost.ms-br:after,
+.ms-cost.ms-bg:after,
+.ms-cost.ms-rw:after,
+.ms-cost.ms-rg:after,
+.ms-cost.ms-gw:after,
+.ms-cost.ms-gu:after,
+.ms-cost.ms-2w:after,
+.ms-cost.ms-2u:after,
+.ms-cost.ms-2b:after,
+.ms-cost.ms-2r:after,
+.ms-cost.ms-2g:after {
+  font-size: 0.55em !important;
+  position: absolute;
+}
+.ms-cost.ms-wu:before,
+.ms-cost.ms-wb:before,
+.ms-cost.ms-ub:before,
+.ms-cost.ms-ur:before,
+.ms-cost.ms-br:before,
+.ms-cost.ms-bg:before,
+.ms-cost.ms-rw:before,
+.ms-cost.ms-rg:before,
+.ms-cost.ms-gw:before,
+.ms-cost.ms-gu:before,
+.ms-cost.ms-2w:before,
+.ms-cost.ms-2u:before,
+.ms-cost.ms-2b:before,
+.ms-cost.ms-2r:before,
+.ms-cost.ms-2g:before {
+  top: -0.38em;
+  left: 0.28em;
+}
+.ms-cost.ms-wu:after,
+.ms-cost.ms-wb:after,
+.ms-cost.ms-ub:after,
+.ms-cost.ms-ur:after,
+.ms-cost.ms-br:after,
+.ms-cost.ms-bg:after,
+.ms-cost.ms-rw:after,
+.ms-cost.ms-rg:after,
+.ms-cost.ms-gw:after,
+.ms-cost.ms-gu:after,
+.ms-cost.ms-2w:after,
+.ms-cost.ms-2u:after,
+.ms-cost.ms-2b:after,
+.ms-cost.ms-2r:after,
+.ms-cost.ms-2g:after {
+  top: 0.5em;
+  left: 1.0em;
+}
+.ms-cost.ms-wu {
+  background: #edf2b0;
+  background: linear-gradient(135deg, #edf2b0 0%, #edf2b0 50%, #a6c1dd 50%, #a6c1dd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf2b0', endColorstr='#a6c1dd', GradientType=1);
+}
+.ms-cost.ms-wb {
+  background: #edf2b0;
+  background: linear-gradient(135deg, #edf2b0 0%, #edf2b0 50%, #9c9188 50%, #9c9188 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#edf2b0', endColorstr='#9c9188', GradientType=1);
+}
+.ms-cost.ms-ub {
+  background: #a6c1dd;
+  background: linear-gradient(135deg, #a6c1dd 0%, #a6c1dd 50%, #9c9188 50%, #9c9188 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6c1dd', endColorstr='#9c9188', GradientType=1);
+}
+.ms-cost.ms-ur {
+  background: #a6c1dd;
+  background: linear-gradient(135deg, #a6c1dd 0%, #a6c1dd 50%, #db8664 50%, #db8664 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6c1dd', endColorstr='#db8664', GradientType=1);
+}
+.ms-cost.ms-br {
+  background: #aca29a;
+  background: linear-gradient(135deg, #aca29a 0%, #aca29a 50%, #db8664 50%, #db8664 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aca29a', endColorstr='#db8664', GradientType=1);
+}
+.ms-cost.ms-bg {
+  background: #aca29a;
+  background: linear-gradient(135deg, #aca29a 0%, #aca29a 50%, #93b483 50%, #93b483 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aca29a', endColorstr='#93b483', GradientType=1);
+}
+.ms-cost.ms-rw {
+  background: #db8664;
+  background: linear-gradient(135deg, #db8664 0%, #db8664 50%, #edf2b0 50%, #edf2b0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#db8664', endColorstr='#edf2b0', GradientType=1);
+}
+.ms-cost.ms-rg {
+  background: #db8664;
+  background: linear-gradient(135deg, #db8664 0%, #db8664 50%, #93b483 50%, #93b483 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#db8664', endColorstr='#93b483', GradientType=1);
+}
+.ms-cost.ms-gw {
+  background: #93b483;
+  background: linear-gradient(135deg, #93b483 0%, #93b483 50%, #edf2b0 50%, #edf2b0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93b483', endColorstr='#edf2b0', GradientType=1);
+}
+.ms-cost.ms-gu {
+  background: #93b483;
+  background: linear-gradient(135deg, #93b483 0%, #93b483 50%, #b5cde3 50%, #b5cde3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93b483', endColorstr='#b5cde3', GradientType=1);
+}
+.ms-cost.ms-2w {
+  background: #beb9b2;
+  background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #edf2b0 50%, #edf2b0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#beb9b2', endColorstr='#edf2b0', GradientType=1);
+}
+.ms-cost.ms-2u {
+  background: #beb9b2;
+  background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #b5cde3 50%, #b5cde3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#beb9b2', endColorstr='#b5cde3', GradientType=1);
+}
+.ms-cost.ms-2b {
+  background: #beb9b2;
+  background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #9c9188 50%, #9c9188 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#beb9b2', endColorstr='#9c9188', GradientType=1);
+}
+.ms-cost.ms-2r {
+  background: #beb9b2;
+  background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #db8664 50%, #db8664 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#beb9b2', endColorstr='#db8664', GradientType=1);
+}
+.ms-cost.ms-2g {
+  background: #beb9b2;
+  background: linear-gradient(135deg, #beb9b2 0%, #beb9b2 50%, #93b483 50%, #93b483 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#beb9b2', endColorstr='#93b483', GradientType=1);
+}
+.ms-cost.ms-p:before,
+.ms-cost.ms-wp:before,
+.ms-cost.ms-up:before,
+.ms-cost.ms-bp:before,
+.ms-cost.ms-rp:before,
+.ms-cost.ms-gp:before {
+  display: inline-block;
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+.ms-cost.ms-tap-alt:before {
+  display: inline-block;
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  padding-left: .06em;
+  padding-bottom: 0.10em;
+}
+.ms-cost.ms-s:before {
+  color: #fff;
+  -webkit-text-stroke: 2px #fff;
+  font-size: 0.85em;
+  top: -0.05em;
+  position: relative;
+  display: inline-block;
+}
+.ms-cost.ms-s:after {
+  content: "\e619";
+  position: absolute;
+  color: #333;
+  margin-left: -0.9em;
+  font-size: 1.1em;
+}
+.ms-cost.ms-untap {
+  background-color: #111;
+  color: #fff;
+}
+.ms-cost.ms-shadow {
+  box-shadow: -0.06em 0.07em 0 #111, 0 0.06em 0 #111;
+}
+.ms-cost.ms-shadow.ms-untap {
+  box-shadow: -0.06em 0.07em 0 #fff, 0 0.06em 0 #fff;
+}
+/**
+ * Split costs (separate handling) */
+.ms-split {
+  position: relative;
+  width: 1.3em;
+  height: 1.3em;
+}
+.ms-split:before,
+.ms-split:after {
+  font-size: 0.55em !important;
+  position: absolute;
+}
+.ms-split:before {
+  top: -0.38em;
+  left: 0.28em;
+}
+.ms-split:after {
+  top: 0.5em;
+  left: 1.0em;
+}
+/**
+ * Half costs */
+span.ms-half {
+  width: .675em;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: .675em;
+}
+span.ms-half > .ms-cost {
+  margin-left: -0.675em;
+}
+.ms-half {
+  width: .675em;
+  margin-left: .675em;
+  overflow: hidden;
+  border-radius: 0 1em 1em 0;
+}
+.ms-half:before {
+  margin-left: -0.65em;
+}
+/**
+ * Un-set costs */
+.ms-100 {
+  width: 2.4em;
+}
+.ms-1000000 {
+  width: 5.4em;
+}
+/**
+ * Planeswalker symbols */
+.ms-loyalty-up,
+.ms-loyalty-down,
+.ms-loyalty-zero,
+.ms-loyalty-start {
+  color: #111;
+  font-size: 1.5em;
+  position: relative;
+  text-align: center;
+}
+.ms-loyalty-start {
+  font-size: 2.0em;
+}
+.ms-loyalty-0:after,
+.ms-loyalty-1:after,
+.ms-loyalty-2:after,
+.ms-loyalty-3:after,
+.ms-loyalty-4:after,
+.ms-loyalty-5:after,
+.ms-loyalty-6:after,
+.ms-loyalty-7:after,
+.ms-loyalty-8:after,
+.ms-loyalty-9:after,
+.ms-loyalty-10:after,
+.ms-loyalty-11:after,
+.ms-loyalty-12:after,
+.ms-loyalty-13:after,
+.ms-loyalty-14:after,
+.ms-loyalty-15:after,
+.ms-loyalty-16:after,
+.ms-loyalty-17:after,
+.ms-loyalty-18:after,
+.ms-loyalty-19:after,
+.ms-loyalty-20:after,
+.ms-loyalty-x:after {
+  color: #fff;
+  display: inline-block;
+  font-size: 0.5em;
+  font-family: MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif;
+  position: absolute;
+  left: 0;
+  line-height: 1.75em;
+  width: 100%;
+  text-align: center;
+  -webkit-padding-before: 0.15em;
+}
+.ms-loyalty-0:after {
+  content: "0";
+}
+.ms-loyalty-up.ms-loyalty-1:after {
+  content: "+1";
+}
+.ms-loyalty-up.ms-loyalty-2:after {
+  content: "+2";
+}
+.ms-loyalty-up.ms-loyalty-3:after {
+  content: "+3";
+}
+.ms-loyalty-up.ms-loyalty-4:after {
+  content: "+4";
+}
+.ms-loyalty-up.ms-loyalty-5:after {
+  content: "+5";
+}
+.ms-loyalty-up.ms-loyalty-6:after {
+  content: "+6";
+}
+.ms-loyalty-up.ms-loyalty-7:after {
+  content: "+7";
+}
+.ms-loyalty-up.ms-loyalty-8:after {
+  content: "+8";
+}
+.ms-loyalty-up.ms-loyalty-9:after {
+  content: "+9";
+}
+.ms-loyalty-up.ms-loyalty-10:after {
+  content: "+10";
+}
+.ms-loyalty-up.ms-loyalty-11:after {
+  content: "+11";
+}
+.ms-loyalty-up.ms-loyalty-12:after {
+  content: "+12";
+}
+.ms-loyalty-up.ms-loyalty-13:after {
+  content: "+13";
+}
+.ms-loyalty-up.ms-loyalty-14:after {
+  content: "+14";
+}
+.ms-loyalty-up.ms-loyalty-15:after {
+  content: "+15";
+}
+.ms-loyalty-up.ms-loyalty-16:after {
+  content: "+16";
+}
+.ms-loyalty-up.ms-loyalty-17:after {
+  content: "+17";
+}
+.ms-loyalty-up.ms-loyalty-18:after {
+  content: "+18";
+}
+.ms-loyalty-up.ms-loyalty-19:after {
+  content: "+19";
+}
+.ms-loyalty-up.ms-loyalty-20:after {
+  content: "+20";
+}
+.ms-loyalty-up.ms-loyalty-x:after {
+  content: "+X";
+}
+.ms-loyalty-start.ms-loyalty-1:after {
+  content: "1";
+}
+.ms-loyalty-start.ms-loyalty-2:after {
+  content: "2";
+}
+.ms-loyalty-start.ms-loyalty-3:after {
+  content: "3";
+}
+.ms-loyalty-start.ms-loyalty-4:after {
+  content: "4";
+}
+.ms-loyalty-start.ms-loyalty-5:after {
+  content: "5";
+}
+.ms-loyalty-start.ms-loyalty-6:after {
+  content: "6";
+}
+.ms-loyalty-start.ms-loyalty-7:after {
+  content: "7";
+}
+.ms-loyalty-start.ms-loyalty-8:after {
+  content: "8";
+}
+.ms-loyalty-start.ms-loyalty-9:after {
+  content: "9";
+}
+.ms-loyalty-start.ms-loyalty-10:after {
+  content: "10";
+}
+.ms-loyalty-start.ms-loyalty-11:after {
+  content: "11";
+}
+.ms-loyalty-start.ms-loyalty-12:after {
+  content: "12";
+}
+.ms-loyalty-start.ms-loyalty-13:after {
+  content: "13";
+}
+.ms-loyalty-start.ms-loyalty-14:after {
+  content: "14";
+}
+.ms-loyalty-start.ms-loyalty-15:after {
+  content: "15";
+}
+.ms-loyalty-start.ms-loyalty-16:after {
+  content: "16";
+}
+.ms-loyalty-start.ms-loyalty-17:after {
+  content: "17";
+}
+.ms-loyalty-start.ms-loyalty-18:after {
+  content: "18";
+}
+.ms-loyalty-start.ms-loyalty-19:after {
+  content: "19";
+}
+.ms-loyalty-start.ms-loyalty-20:after {
+  content: "20";
+}
+.ms-loyalty-start.ms-loyalty-x:after {
+  content: "X";
+}
+.ms-loyalty-down:after {
+  line-height: 1.6em;
+}
+.ms-loyalty-down.ms-loyalty-1:after {
+  content: "-1";
+}
+.ms-loyalty-down.ms-loyalty-2:after {
+  content: "-2";
+}
+.ms-loyalty-down.ms-loyalty-3:after {
+  content: "-3";
+}
+.ms-loyalty-down.ms-loyalty-4:after {
+  content: "-4";
+}
+.ms-loyalty-down.ms-loyalty-5:after {
+  content: "-5";
+}
+.ms-loyalty-down.ms-loyalty-6:after {
+  content: "-6";
+}
+.ms-loyalty-down.ms-loyalty-7:after {
+  content: "-7";
+}
+.ms-loyalty-down.ms-loyalty-8:after {
+  content: "-8";
+}
+.ms-loyalty-down.ms-loyalty-9:after {
+  content: "-9";
+}
+.ms-loyalty-down.ms-loyalty-10:after {
+  content: "-10";
+}
+.ms-loyalty-down.ms-loyalty-11:after {
+  content: "-11";
+}
+.ms-loyalty-down.ms-loyalty-12:after {
+  content: "-12";
+}
+.ms-loyalty-down.ms-loyalty-13:after {
+  content: "-13";
+}
+.ms-loyalty-down.ms-loyalty-14:after {
+  content: "-14";
+}
+.ms-loyalty-down.ms-loyalty-15:after {
+  content: "-15";
+}
+.ms-loyalty-down.ms-loyalty-16:after {
+  content: "-16";
+}
+.ms-loyalty-down.ms-loyalty-17:after {
+  content: "-17";
+}
+.ms-loyalty-down.ms-loyalty-18:after {
+  content: "-18";
+}
+.ms-loyalty-down.ms-loyalty-19:after {
+  content: "-19";
+}
+.ms-loyalty-down.ms-loyalty-20:after {
+  content: "-20";
+}
+.ms-loyalty-down.ms-loyalty-x:after {
+  content: "-X";
+}
+/**
+ * Double faced cards */
+.ms-dfc {
+  color: #111;
+  border: .05em solid #111;
+  border-radius: 2em;
+  padding: 0.025em;
+}
+/*
+ * Larger sizes */
+.ms-2x {
+  font-size: 1.75em;
+}
+.ms-3x {
+  font-size: 2.25em;
+}
+.ms-4x {
+  font-size: 3.0em;
+}
+.ms-5x {
+  font-size: 3.75em;
+}
+.ms-6x {
+  font-size: 4.5em;
+}
+/**
+ * Mana */
+.ms-w:before {
+  content: "\e600";
+}
+.ms-u:before {
+  content: "\e601";
+}
+.ms-b:before {
+  content: "\e602";
+}
+.ms-r:before {
+  content: "\e603";
+}
+.ms-g:before {
+  content: "\e604";
+}
+.ms-0:before {
+  content: "\e605";
+}
+.ms-1:before {
+  content: "\e606";
+}
+.ms-2:before {
+  content: "\e607";
+}
+.ms-3:before {
+  content: "\e608";
+}
+.ms-4:before {
+  content: "\e609";
+}
+.ms-5:before {
+  content: "\e60a";
+}
+.ms-6:before {
+  content: "\e60b";
+}
+.ms-7:before {
+  content: "\e60c";
+}
+.ms-8:before {
+  content: "\e60d";
+}
+.ms-9:before {
+  content: "\e60e";
+}
+.ms-10:before {
+  content: "\e60f";
+}
+.ms-11:before {
+  content: "\e610";
+}
+.ms-12:before {
+  content: "\e611";
+}
+.ms-13:before {
+  content: "\e612";
+}
+.ms-14:before {
+  content: "\e613";
+}
+.ms-15:before {
+  content: "\e614";
+}
+.ms-16:before {
+  content: "\e62a";
+}
+.ms-17:before {
+  content: "\e62b";
+}
+.ms-18:before {
+  content: "\e62c";
+}
+.ms-19:before {
+  content: "\e62d";
+}
+.ms-20:before {
+  content: "\e62e";
+}
+.ms-x:before {
+  content: "\e615";
+}
+.ms-y:before {
+  content: "\e616";
+}
+.ms-z:before {
+  content: "\e617";
+}
+.ms-p:before,
+.ms-wp:before,
+.ms-up:before,
+.ms-bp:before,
+.ms-rp:before,
+.ms-gp:before {
+  content: "\e618";
+}
+.ms-s:before {
+  content: "\e619";
+}
+.ms-c:before {
+  content: "\e904";
+}
+.ms-e:before,
+.ms-energy:before {
+  content: "\e907";
+}
+/**
+ * Tap/roll symbols */
+.ms-tap:before {
+  content: "\e61a";
+}
+.ms-untap:before {
+  content: "\e61b";
+}
+.ms-tap-alt:before {
+  content: "\e61c";
+}
+.ms-chaos:before {
+  content: "\e61d";
+}
+.ms-1-2:before {
+  content: "\e902";
+}
+.ms-infinity:before {
+  content: "\e903";
+}
+/**
+ * Card types */
+.ms-artifact:before {
+  content: "\e61e";
+}
+.ms-creature:before {
+  content: "\e61f";
+}
+.ms-enchantment:before {
+  content: "\e620";
+}
+.ms-instant:before {
+  content: "\e621";
+}
+.ms-land:before {
+  content: "\e622";
+}
+.ms-planeswalker:before {
+  content: "\e623";
+}
+.ms-sorcery:before {
+  content: "\e624";
+}
+.ms-multiple:before {
+  content: "\e925";
+}
+/**
+ * Split symbols */
+.ms-wu:before,
+.ms-wb:before,
+.ms-rw:after,
+.ms-gw:after,
+.ms-2w:after {
+  content: "\e600";
+}
+.ms-ub:before,
+.ms-ur:before,
+.ms-wu:after,
+.ms-gu:after,
+.ms-2u:after {
+  content: "\e601";
+}
+.ms-br:before,
+.ms-bg:before,
+.ms-wb:after,
+.ms-ub:after,
+.ms-2b:after {
+  content: "\e602";
+}
+.ms-rw:before,
+.ms-rg:before,
+.ms-ur:after,
+.ms-br:after,
+.ms-2r:after {
+  content: "\e603";
+}
+.ms-gw:before,
+.ms-gu:before,
+.ms-bg:after,
+.ms-rg:after,
+.ms-2g:after {
+  content: "\e604";
+}
+.ms-2w:before,
+.ms-2u:before,
+.ms-2b:before,
+.ms-2r:before,
+.ms-2g:before {
+  content: "\e607";
+}
+/**
+ * Un-set symbols */
+.ms-100:before {
+  content: "\e900";
+}
+.ms-1000000:before {
+  content: "\e901";
+}
+/**
+ * Planeswalker symbols */
+.ms-loyalty-up:before {
+  content: "\e627";
+}
+.ms-loyalty-down:before {
+  content: "\e625";
+}
+.ms-loyalty-zero:before {
+  content: "\e626";
+}
+.ms-loyalty-start:before {
+  content: "\e628";
+}
+/**
+ * Other */
+.ms-flashback:before {
+  content: "\e629";
+}
+.ms-dfc-night:before {
+  content: "\e905";
+}
+.ms-dfc-day:before {
+  content: "\e906";
+}
+.ms-dfc-ignite:before {
+  content: "\e908";
+}
+.ms-dfc-spark:before {
+  content: "\e909";
+}
+.ms-dfc-emrakul:before {
+  content: "\e90a";
+}
+.ms-dfc-moon:before {
+  content: "\e90b";
+}
+.ms-dfc-enchantment:before {
+  content: "\e920";
+}
+.ms-power:before {
+  content: "\e921";
+}
+.ms-toughness:before {
+  content: "\e922";
+}
+.ms-artist-brush:before {
+  content: "\e923";
+}
+.ms-artist-nib:before {
+  content: "\e924";
+}
+/**
+ * Guilds and Clans */
+.ms-guild-azorius:before {
+  content: "\e90c";
+}
+.ms-guild-boros:before {
+  content: "\e90d";
+}
+.ms-guild-dimir:before {
+  content: "\e90e";
+}
+.ms-guild-golgari:before {
+  content: "\e90f";
+}
+.ms-guild-gruul:before {
+  content: "\e910";
+}
+.ms-guild-izzet:before {
+  content: "\e911";
+}
+.ms-guild-orzhov:before {
+  content: "\e912";
+}
+.ms-guild-rakdos:before {
+  content: "\e913";
+}
+.ms-guild-selesnya:before {
+  content: "\e914";
+}
+.ms-guild-simic:before {
+  content: "\e915";
+}
+.ms-clan-abzan:before {
+  content: "\e916";
+}
+.ms-clan-jeskai:before {
+  content: "\e917";
+}
+.ms-clan-mardu:before {
+  content: "\e918";
+}
+.ms-clan-sultai:before {
+  content: "\e919";
+}
+.ms-clan-temur:before {
+  content: "\e91a";
+}
+.ms-clan-atarka:before {
+  content: "\e91b";
+}
+.ms-clan-dromoka:before {
+  content: "\e91c";
+}
+.ms-clan-kolaghan:before {
+  content: "\e91d";
+}
+.ms-clan-ojutai:before {
+  content: "\e91e";
+}
+.ms-clan-silumgar:before {
+  content: "\e91f";
+}
+/**
+ * Poleis */
+.ms-polis-setessa:before {
+  content: "\e926";
+}
+.ms-polis-akros:before {
+  content: "\e927";
+}
+.ms-polis-meletis:before {
+  content: "\e928";
+}
+
+
+/*# sourceMappingURL=vendors~main.css.map*/

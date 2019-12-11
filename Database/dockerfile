@@ -1,0 +1,5 @@
+FROM mongo
+
+COPY scryfall-test-cards.json /scryfall-test-cards.json
+COPY gatherer-sample-cards.json /gatherer-sample-cards.json
+CMD mongoimport --host yamdb-database --db YAMDB --collection scryfall_cards --drop --type json --file /scryfall-test-cards.json --jsonArray && mongoimport --host yamdb-database --db YAMDB --collection gatherer_cards --drop --type json --file /gatherer-sample-cards.json --jsonArray

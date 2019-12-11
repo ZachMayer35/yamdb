@@ -1,0 +1,39 @@
+version: "3"
+
+services:
+  yamdb-database:
+    container_name: yamdb-database
+    image: mongo
+    networks:
+      - app
+    ports:
+      - "27017:27017"
+  yamdb-data:
+    build: ./Database
+    depends_on:
+      - yamdb-database
+    networks:
+      - app
+  yamdb-server:
+    container_name: yamdb-server
+    working_dir: /app
+    build: ./YAMDBService
+    restart: always
+    depends_on:
+      - yamdb-database
+    networks:
+      - app
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./YAMDBService/server:/app/server
+      - ./YAMDBUI/build:/app/ui
+    environment:
+      - MONGODB_URI=mongodb://yamdb-database:27017/YAMDB
+      - PORT=8080
+      - HOST=0.0.0.0
+      - NODE_ENV=development
+      - NPM_CONFIG_LOGLEVEL=info
+
+networks:
+  app:

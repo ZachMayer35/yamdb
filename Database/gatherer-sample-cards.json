@@ -1,0 +1,1353 @@
+[
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "2ED",
+      "setName": "Unlimited Edition",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Douglas Shuler",
+      "number": "105",
+      "layout": "normal",
+      "multiverseid": 657,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=657&type=card",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "originalText": "You may search your library for one card and take it into your hand. Reshuffle your library afterwards.",
+      "originalType": "Sorcery",
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Oldschool",
+              "legality": "Restricted"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "19846633-d760-5e73-8b35-93604e014034"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "3ED",
+      "setName": "Revised Edition",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Douglas Shuler",
+      "number": "105",
+      "layout": "normal",
+      "multiverseid": 1155,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1155&type=card",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [
+          {
+              "name": "Dämonischer Tutor",
+              "text": "Hole eine Karte Deiner Wahl aus der Bibliothek in Dein Blatt. Vergiß nicht, Deine Bibliothek danach neu zu mischen.",
+              "flavor": null,
+              "imageUrl": null,
+              "language": "German",
+              "multiverseid": null
+          },
+          {
+              "name": "Précepteur diabolique",
+              "text": null,
+              "flavor": null,
+              "imageUrl": null,
+              "language": "French",
+              "multiverseid": null
+          },
+          {
+              "name": "Tutore Demoniaco",
+              "text": null,
+              "flavor": null,
+              "imageUrl": null,
+              "language": "Italian",
+              "multiverseid": null
+          }
+      ],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "originalText": "Search your library for one card and take it into your hand. Reshuffle your library afterwards.",
+      "originalType": "Sorcery",
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Oldschool",
+              "legality": "Restricted"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "e4ecf436-b44c-509a-8a08-da09343a28ac"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "CED",
+      "setName": "Collectors’ Edition",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Douglas Shuler",
+      "number": "105",
+      "layout": "normal",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Oldschool",
+              "legality": "Restricted"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "bbe1fb44-086b-5ce1-82a6-30127086db47"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "CEI",
+      "setName": "Intl. Collectors’ Edition",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Douglas Shuler",
+      "number": "105",
+      "layout": "normal",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Oldschool",
+              "legality": "Restricted"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "04b5a5f4-1e2f-5aa4-992a-02aa69c7f690"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "DDC",
+      "setName": "Duel Decks: Divine vs. Demonic",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "flavor": "Liliana learned the secrets she sought, but at a price that was etched on her fate.",
+      "artist": "Scott Chou",
+      "number": "49",
+      "layout": "normal",
+      "multiverseid": 193867,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=193867&type=card",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "originalText": "Search your library for a card and put that card into your hand. Then shuffle your library.",
+      "originalType": "Sorcery",
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "1b76f0d8-2da0-5b5e-9ba3-0f410082cc14"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "DVD",
+      "setName": "Duel Decks Anthology: Divine vs. Demonic",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "flavor": "Liliana learned the secrets she sought, but at a price that was etched on her fate.",
+      "artist": "Scott Chou",
+      "number": "49",
+      "layout": "normal",
+      "multiverseid": 394025,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=394025&type=card",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "originalText": "Search your library for a card and put that card into your hand. Then shuffle your library.",
+      "originalType": "Sorcery",
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "8bb9697e-fbed-5d46-9ab1-ee4d96022828"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "FBB",
+      "setName": "Foreign Black Border",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Douglas Shuler",
+      "number": "105",
+      "layout": "normal",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [
+          {
+              "name": "Précepteur diabolique",
+              "text": null,
+              "flavor": null,
+              "imageUrl": null,
+              "language": "French",
+              "multiverseid": null
+          },
+          {
+              "name": "Dämonischer Lehrmeister",
+              "text": "Hole eine Karte Deiner Wahl aus der Bibliothek in Dein Blatt. Vergiß nicht, Deine Bibliothek danach neu zu mischen.",
+              "flavor": null,
+              "imageUrl": null,
+              "language": "German",
+              "multiverseid": null
+          },
+          {
+              "name": "Tutore Demoniaco",
+              "text": null,
+              "flavor": null,
+              "imageUrl": null,
+              "language": "Italian",
+              "multiverseid": null
+          }
+      ],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Oldschool",
+              "legality": "Restricted"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "5d718b52-d751-572a-9a21-482bf9553642"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Rare",
+      "set": "G08",
+      "setName": "Judge Gift Cards 2008",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Daarken",
+      "number": "3",
+      "layout": "normal",
+      "watermark": "dci",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "36a29c07-2b1b-5b43-a996-004008d939c2"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "LEA",
+      "setName": "Limited Edition Alpha",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Douglas Shuler",
+      "number": "104",
+      "layout": "normal",
+      "multiverseid": 60,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=60&type=card",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "originalText": "You may search your library for one card and take it into your hand. Reshuffle your library afterwards.",
+      "originalType": "Sorcery",
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Oldschool",
+              "legality": "Restricted"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "77fbb052-f52a-567f-bd15-753ee54b4d15"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "LEB",
+      "setName": "Limited Edition Beta",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Douglas Shuler",
+      "number": "105",
+      "layout": "normal",
+      "multiverseid": 355,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=355&type=card",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "originalText": "You may search your library for one card and take it into your hand. Reshuffle your library afterwards.",
+      "originalType": "Sorcery",
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Oldschool",
+              "legality": "Restricted"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "8538eec0-86f0-5817-9528-ad5a9daf12ee"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Rare",
+      "set": "ME4",
+      "setName": "Masters Edition IV",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Douglas Shuler",
+      "number": "77",
+      "layout": "normal",
+      "multiverseid": 202628,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=202628&type=card",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "originalText": "Search your library for a card and put that card into your hand. Then shuffle your library.",
+      "originalType": "Sorcery",
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "8dac3dbe-1f5c-5bcb-acf9-a5e0b4605d95"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "PRM",
+      "setName": "Magic Online Promos",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Daarken",
+      "number": "35074",
+      "layout": "normal",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "0e97c257-41a9-5b9e-9424-927f77dccb8f"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Mythic",
+      "set": "PUMA",
+      "setName": "Ultimate Box Topper",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Zack Stella",
+      "number": "U8",
+      "layout": "normal",
+      "multiverseid": 457112,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=457112&type=card",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "originalText": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "originalType": "Sorcery",
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "4e3defc8-9b99-530b-99c0-dca1916f90c8"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Uncommon",
+      "set": "SUM",
+      "setName": "Summer Magic / Edgar",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Douglas Shuler",
+      "number": "105",
+      "layout": "normal",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Oldschool",
+              "legality": "Restricted"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "5ed5f835-01bb-57da-9f18-9caba164a7aa"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Rare",
+      "set": "UMA",
+      "setName": "Ultimate Masters",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "flavor": "Beware the generosity of demons.",
+      "artist": "Zack Stella",
+      "number": "93",
+      "layout": "normal",
+      "multiverseid": 456689,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=456689&type=card",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [
+          {
+              "name": "悪魔の教示者",
+              "text": "あなたのライブラリーからカード１枚を探してあなたの手札に加え、その後あなたのライブラリーを切り直す。",
+              "flavor": "悪魔の気前の良さには裏がある。",
+              "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=456943&type=card",
+              "language": "Japanese",
+              "multiverseid": 456943
+          }
+      ],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "originalText": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "originalType": "Sorcery",
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "dd27edec-9fcb-5011-9313-a21a13fcd0ef"
+  },
+  {
+      "name": "Demonic Tutor",
+      "manaCost": "{1}{B}",
+      "cmc": 2.0,
+      "colors": [
+          "Black"
+      ],
+      "colorIdentity": [
+          "B"
+      ],
+      "type": "Sorcery",
+      "supertypes": [],
+      "types": [
+          "Sorcery"
+      ],
+      "subtypes": [],
+      "rarity": "Mythic",
+      "set": "VMA",
+      "setName": "Vintage Masters",
+      "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+      "artist": "Scott Chou",
+      "number": "116",
+      "layout": "normal",
+      "multiverseid": 382914,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=382914&type=card",
+      "rulings": [
+          {
+              "date": "2004-10-04",
+              "text": "You pick a card on resolution."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "You don’t reveal the card to your opponent."
+          },
+          {
+              "date": "2004-10-04",
+              "text": "This card is put directly into your hand. It is not drawn."
+          }
+      ],
+      "foreignNames": [],
+      "printings": [
+          "2ED",
+          "3ED",
+          "CED",
+          "CEI",
+          "DDC",
+          "DVD",
+          "FBB",
+          "G08",
+          "LEA",
+          "LEB",
+          "ME4",
+          "PRM",
+          "PUMA",
+          "SUM",
+          "UMA",
+          "VMA"
+      ],
+      "originalText": "Search your library for a card and put that card into your hand. Then shuffle your library.",
+      "originalType": "Sorcery",
+      "legalities": [
+          {
+              "format": "Commander",
+              "legality": "Legal"
+          },
+          {
+              "format": "Duel",
+              "legality": "Legal"
+          },
+          {
+              "format": "Legacy",
+              "legality": "Banned"
+          },
+          {
+              "format": "Vintage",
+              "legality": "Restricted"
+          }
+      ],
+      "id": "5b39fea6-2fc6-501f-8357-fb7c53f40831"
+  }
+]

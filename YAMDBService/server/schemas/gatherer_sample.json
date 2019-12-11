@@ -1,0 +1,85 @@
+{
+  "name": "Demonic Tutor",
+  "manaCost": "{1}{B}",
+  "cmc": 2.0,
+  "colors": [
+      "Black"
+  ],
+  "colorIdentity": [
+      "B"
+  ],
+  "type": "Sorcery",
+  "supertypes": [],
+  "types": [
+      "Sorcery"
+  ],
+  "subtypes": [],
+  "rarity": "Uncommon",
+  "set": "2ED",
+  "setName": "Unlimited Edition",
+  "text": "Search your library for a card, put that card into your hand, then shuffle your library.",
+  "artist": "Douglas Shuler",
+  "number": "105a",
+  "layout": "normal",
+  "multiverseid": 657,
+  "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=657&type=card",
+  "rulings": [
+      {
+          "date": "2004-10-04abc",
+          "text": "You pick a card on resolution."
+      },
+      {
+          "date": "2004-10-04abc",
+          "text": "You don’t reveal the card to your opponent."
+      },
+      {
+          "date": "2004-10-04abc",
+          "text": "This card is put directly into your hand. It is not drawn."
+      }
+  ],
+  "foreignNames": [],
+  "printings": [
+      "2ED",
+      "3ED",
+      "CED",
+      "CEI",
+      "DDC",
+      "DVD",
+      "FBB",
+      "G08",
+      "LEA",
+      "LEB",
+      "ME4",
+      "PRM",
+      "PUMA",
+      "SUM",
+      "UMA",
+      "VMA"
+  ],
+  "originalText": "You may search your library for one card and take it into your hand. Reshuffle your library afterwards.",
+  "originalType": "Sorcery",
+  "legalities": [
+      {
+          "format": "Commander",
+          "legality": "Legal"
+      },
+      {
+          "format": "Duel",
+          "legality": "Legal"
+      },
+      {
+          "format": "Legacy",
+          "legality": "Banned"
+      },
+      {
+          "format": "Oldschool",
+          "legality": "Restricted"
+      },
+      {
+          "format": "Vintage",
+          "legality": "Restricted"
+      }
+  ],
+  "id": "19846633-d760-5e73-8b35-93604e014034",
+  "last_cached": 1575957612683
+}
