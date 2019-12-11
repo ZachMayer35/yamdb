@@ -1,7 +1,7 @@
 # YAMDB - Yet Another Magic The Gathering Database
 
 
-[![Build Status](https://travis-ci.org/ZachMayer35/yamdb.svg?branch=master)](https://travis-ci.com/ZachMayer35/yamdb)
+[![Build Status](https://travis-ci.com/ZachMayer35/yamdb.svg?branch=master)](https://travis-ci.com/ZachMayer35/yamdb)
 [![Heroku](http://heroku-badge.herokuapp.com/?app=yamtgdb&style=flat&svg=1&root=/strings)](https://yamtgdb.herokuapp.com)
 
 [Storybook on GithubPages](https://zachmayer35.github.io/yamdb)
