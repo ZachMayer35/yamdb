@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Grid, Container, Typography, Box, TextField } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import { Search } from '@material-ui/icons'
+import { Search, Camera } from '@material-ui/icons'
 import { useSelector, useDispatch } from 'react-redux';
 import { push } from 'connected-react-router';
 import queryString from 'query-string';
@@ -11,6 +11,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 
 import { getCards, getNextPage } from '../../store/reducers/card/sagas';
 import CardItem from '../../components/cardItem';
+import PhotoSearch from '../../components/photoSearch';
 
 const useStyles = makeStyles(theme => ({
   content: {
@@ -30,6 +31,33 @@ const CardList = function () {
   const cards = cardStore.cards;
   const classes = useStyles();
   const [search, setSearch] = useState(queryString.parse(window.location.search).name || '');
+  const [showCamera, setShowCamera] = useState(false);
+  const [error, setError] = useState(false);
+  const handleShowCamera = () => {
+    setShowCamera(!showCamera);
+  };
+  /* eslint-enable react-hooks/exhaustive-deps */
+  const getImageSearchName = async (image) => {
+    try{
+      const details = await axios.post(`${process.env.REACT_APP_YAMDB_SERVICE_URI || ''}/api/imageSearch`, image);
+      return details.data;
+    } catch(ex) {
+      console.log(ex);
+      return { error: ex.message };
+    }
+  }
+  const handlePhotoSearch = async (image) => {
+    const name = await getImageSearchName({ image });
+    console.log(name);
+    if(typeof name === 'string') {
+      dispatch(push(`/?name=${name}`));
+      setSearch(name);
+      handleShowCamera();
+      setError(false);
+    } else {
+      setError(`Couldn't quite read that, try again!`);
+    }
+  };
   // useEffect runs whenever values in the second argument change, and on initialization.
   /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
@@ -66,6 +94,17 @@ const CardList = function () {
         <Typography variant="h4" component="h1">
           Card Search
         </Typography>
+        <Grid container alignItems="center" direction="column" >
+        {showCamera && 
+          <Grid item>
+            <PhotoSearch handleSearch={handlePhotoSearch} />
+          </Grid>
+        }{error && 
+          <Grid item>
+            <Typography variant="caption" component="h1" style={{color: 'red'}}>{error}</Typography>
+          </Grid>
+        }
+        </Grid>
         <Grid container alignItems="flex-end" direction="row" >
           <Grid item >
             <Search style={{ cursor: 'pointer' }} />
@@ -83,6 +122,9 @@ const CardList = function () {
                 onBlur={handleSearch}
               />
             </form>
+          </Grid>
+          <Grid item>
+            <Camera style={{ cursor: 'pointer', marginLeft: '1em' }}  onClick={handleShowCamera}/>
           </Grid>
         </Grid>
         {cards.docs && cards.docs.length > 0 &&
