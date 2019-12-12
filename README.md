@@ -8,6 +8,7 @@
 
 # Features
 
+- **Camera Image Search** Take a picture of a card to search.
 - **Infinite Scroll:** For the cards.
 - **Pricing and Purchase** In the details.
 - **Relevant Iconography** For mana, power, and toughness
@@ -28,6 +29,7 @@
 - **Redux and Redux Saga:** Generator-based state management for the client provides easy control flow for both synchronous and asyc needs.
 - **SPA Routing:** Queries are persisted to the browser history and readily recalled on first load.
 - **Jest:** Component (and anything else) testing.
+- **Azure Cognitive Services** OCR on camera images.
 
 # Setup
 
@@ -69,6 +71,8 @@ You can run the UI client in a detached mode with `npm start` from `YAMDBUI` and
 
 You can also run the YAMDBService outside the docker environment with `npm run start:local` from the `YAMDBService` directory. In this mode, the server will look for the dockerized MongoDB instance created with the `docker-compose up -d` command. Running locally allows you to attach debuggers and step through code but there is no file watching. It could be added with nodemon.
 
+The Azure Cognitive Services integration requires an API key. Set it in the `docker-compose.yml` under `MS_CS_API_KEY` with a development API key. That will allow the OCR functionality to operate in the `docker-compose`d instance. For local service development, add that key to the `.env.development` file in the `YAMDBService` directory.
+
 # Running Tests
 
 For expediency, only the UI client has tests. Running the `npm run test` command from `YAMDBUI` will start a test watcher that will re-run on file changes. With a little additional configuration, the test runner Jest can be setup to also emmit snapshots (not screenshots) but this was left out for now. Adding `--coverage` to the `test` command in `package.json` will show coverage statistics.
@@ -78,4 +82,3 @@ There are not many tests in the client but there are enough to demonstrate how t
 # Storybook
 
 The storybook can be accessed locally by (first installing and then) running the command `npm run storybook` from the `/YAMDBUI` directory.
- 
