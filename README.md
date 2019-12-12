@@ -71,7 +71,7 @@ You can run the UI client in a detached mode with `npm start` from `YAMDBUI` and
 
 You can also run the YAMDBService outside the docker environment with `npm run start:local` from the `YAMDBService` directory. In this mode, the server will look for the dockerized MongoDB instance created with the `docker-compose up -d` command. Running locally allows you to attach debuggers and step through code but there is no file watching. It could be added with nodemon.
 
-The Azure Cognitive Services integration requires an API key. Set it in the `docker-compose.yml` under `MS_CS_API_KEY` with a development API key. That will allow the OCR functionality to operate in the `docker-compose`d instance. For local service development, add that key to the `.env.development` file in the `YAMDBService` directory.
+The Azure Cognitive Services integration requires an API key. Set it in the `docker-compose.yml` under `MS_CS_API_KEY` with a development API key. That will allow the OCR functionality to operate in the `docker-compose`d instance. For local service development, add that key to the `.env.development` file in the `YAMDBService` directory. For more information on setting up an Azure Cognitive Services account and getting an API key, see [https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts/node-analyze](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts/node-analyze)
 
 # Running Tests
 
