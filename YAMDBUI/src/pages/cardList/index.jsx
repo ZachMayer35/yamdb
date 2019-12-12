@@ -95,11 +95,11 @@ const CardList = function () {
           Card Search
         </Typography>
         <Grid container alignItems="center" direction="column" >
-        {showCamera && 
+        {showCamera &&
           <Grid item>
             <PhotoSearch handleSearch={handlePhotoSearch} />
           </Grid>
-        }{error && 
+        }{error && showCamera &&
           <Grid item>
             <Typography variant="caption" component="h1" style={{color: 'red'}}>{error}</Typography>
           </Grid>
