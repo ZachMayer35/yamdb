@@ -109,7 +109,7 @@ const CardList = function () {
           <Grid item >
             <Search style={{ cursor: 'pointer' }} />
           </Grid>
-          <Grid item xs={11}>
+          <Grid item xs={10} lg={11}>
             <form className={classes.container} noValidate autoComplete="off" onSubmit={handleSearch}>
               <TextField
                 label="Find Cards By Name..."
