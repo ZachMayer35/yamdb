@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Grid, Container, Typography, Box, TextField } from '@material-ui/core';
+import { Grid, Container, Typography, Box, TextField, LinearProgress } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Search } from '@material-ui/icons'
 import { useSelector, useDispatch } from 'react-redux';
@@ -11,6 +11,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 
 import { getCards, getNextPage } from '../../store/reducers/card/sagas';
 import CardItem from '../../components/cardItem';
+import { withStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles(theme => ({
   content: {
@@ -20,8 +21,23 @@ const useStyles = makeStyles(theme => ({
     marginLeft: theme.spacing(1),
     marginRight: theme.spacing(1),
     width: '100%'
-  },
+  }
 }));
+
+const CardsLoading = withStyles(theme => ({
+  root: {
+    position: 'relative',
+    marginTop: '-0.6em',
+    marginLeft: '0.6em',
+    marginRight: '-0.6em'
+  },
+  colorPrimary: {
+    backgroundColor: 'red',
+  },
+  barColorPrimary: {
+    backgroundColor: theme.palette.primary.main,
+  },
+}))(LinearProgress);
 
 const CardList = function () {
   const dispatch = useDispatch();
@@ -82,6 +98,7 @@ const CardList = function () {
                 onChange={handleSearchChange}
                 onBlur={handleSearch}
               />
+              {!cardStore.fetching && <CardsLoading /> }
             </form>
           </Grid>
         </Grid>
