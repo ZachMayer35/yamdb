@@ -98,7 +98,7 @@ const CardList = function () {
                 onChange={handleSearchChange}
                 onBlur={handleSearch}
               />
-              {!cardStore.fetching && <CardsLoading /> }
+              {cardStore.fetching && <CardsLoading /> }
             </form>
           </Grid>
         </Grid>
