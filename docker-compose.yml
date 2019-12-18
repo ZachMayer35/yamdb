@@ -30,6 +30,7 @@ services:
       - ./YAMDBUI/build:/app/ui
     environment:
       - MONGODB_URI=mongodb://yamdb-database:27017/YAMDB
+      - MS_CS_API_KEY=API_KEY
       - PORT=8080
       - HOST=0.0.0.0
       - NODE_ENV=development

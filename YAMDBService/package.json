@@ -20,9 +20,11 @@
     "dotenv": "^8.1.0",
     "generate-schema": "^2.6.0",
     "hapi-swagger": "^10.1.2",
+    "microsoft-computer-vision": "^0.4.2",
     "mongoose": "^5.7.5",
     "mongoose-paginate": "^5.0.3",
-    "pm2": "^3.5.1"
+    "pm2": "^3.5.1",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "jest": "^24.9.0"
