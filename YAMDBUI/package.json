@@ -13,7 +13,7 @@
     "keyrune": "^3.6.3",
     "mana-font": "^1.4.1",
     "material-table": "^1.51.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "query-string": "^6.8.3",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
