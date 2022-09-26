@@ -23,7 +23,7 @@
     "microsoft-computer-vision": "^0.4.2",
     "mongoose": "^5.7.5",
     "mongoose-paginate": "^5.0.3",
-    "pm2": "^3.5.1",
+    "pm2": "^5.2.0",
     "uuid": "^3.3.3"
   },
   "devDependencies": {
